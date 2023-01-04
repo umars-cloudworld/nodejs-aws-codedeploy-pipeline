@@ -16,7 +16,6 @@ ssh -i <key.pem> ec2-user@<ip-address> -v
 
 ```sh
 sudo yum update
-deploy
 ```
 
 ```sh
@@ -148,3 +147,5 @@ sudo service codedeploy-agent start
 ### 10. Continue in AWS console...
 
 Watch the rest of the youtube video...
+deploy
+deploy again
