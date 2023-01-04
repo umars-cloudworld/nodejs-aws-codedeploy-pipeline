@@ -16,6 +16,7 @@ ssh -i <key.pem> ec2-user@<ip-address> -v
 
 ```sh
 sudo yum update
+deploy
 ```
 
 ```sh
