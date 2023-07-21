@@ -30,7 +30,7 @@ jobs:
     - name: Create CodeDeploy Deployment
       id: deploy
       run: |
-        aws deploy update-deployment-group \
+        aws deploy update-deployment \
         --application-name node \
         --current-deployment-group-name node-group \
         --new-deployment-group-name node-group \
