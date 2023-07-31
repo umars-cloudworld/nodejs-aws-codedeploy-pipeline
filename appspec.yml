@@ -5,8 +5,6 @@ files:
     destination: /home/ec2-user/nodejs-aws-codedeploy-pipeline
 file_exists_behavior: OVERWRITE
 hooks:
-  # ApplicationStop:
-  # DownloadBundle:
   ApplicationStop:
     - location: scripts/application_stop.sh
       timeout: 300
@@ -19,4 +17,3 @@ hooks:
     - location: scripts/application_start.sh
       timeout: 300
       runas: root
-# ValidateService:
